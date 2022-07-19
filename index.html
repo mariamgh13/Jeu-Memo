@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jeux de Mémoire</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <script>
+        function rejoue()
+        {
+        location.reload();
+        }
+    </script>
+    <div id="form">
+        <form>
+            <h2>Score: <span id="result"></span> <span id="final_message"></span></h2>
+            
+
+            <input type="button"  id="restart" onClick="rejoue();" value="Rejouer"/>
+            <div class="grid">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
